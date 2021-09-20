@@ -1,0 +1,46 @@
+.callout {
+  padding: 1em;
+  background-color: #ddd;
+  border-left: 5px solid #aaa;
+  margin: 1rem 0;
+}
+.callout.information {
+  background-color: rgba(0, 124, 195, 0.2);
+  border-left-color: #007CC3;
+}
+.callout.information a {
+  color: #007CC3;
+}
+.callout.tip {
+  background-color: rgba(0, 186, 57, 0.2);
+  border-left-color: #007439;
+}
+.callout.tip a {
+  color: #007439;
+}
+.callout.advisory {
+  background-color: rgba(255, 255, 0, 0.2);
+  border-left-color: #ffe100;
+}
+.callout.advisory a {
+  color: #007CC3;
+}
+.callout.attention {
+  background-color: rgba(255, 72, 0, 0.2);
+  border-left-color: #ff4800;
+}
+.callout attention header::before {
+  content:'\26A0';
+}
+.callout.attention a {
+  color: #007CC3;
+}
+.callout h2, .callout h3, .callout h4, .callout h5, .callout h6 {
+  font-size: 1.5rem;
+}
+.callout header {
+  background-color: transparent;
+}
+aside.callout {
+  display:block;
+}

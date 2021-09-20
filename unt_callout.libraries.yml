@@ -1,0 +1,5 @@
+callout_styles:
+  css:
+    theme:
+      css/callout.css: {}
+

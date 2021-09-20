@@ -1,0 +1,13 @@
+name: 'UNT Callout'
+type: module
+description: 'Installs the UNT Callout plugin for CKEditor4'
+core_version_requirement: 9.x
+package: 'CKEditor Plugins'
+dependencies:
+  - ckeditor
+
+libraries:
+  - unt_callout/callout_styles
+
+ckeditor_stylesheets:
+  - css/callout.css
